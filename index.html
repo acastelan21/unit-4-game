@@ -8,17 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
 
 
 
 </head>
-<header>Crystal Collector</header>
+
 
 <body>
-    <gameContainer>
-        <br>
+
+    <div class="container">
+        <header>Crystal Collector</header>
         <div class="instructions">
-            <br> You will be given a random number at the start of the game.
+            You will be given a random number at the start of the game.
             <br> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
             score.
             <br> You win the game by matching your total score to random number, you lose the game if your total score goes above
@@ -27,29 +29,31 @@
             <br> Each time when the game starts, the game will change the values of each crystal.
         </div>
         <br>
-        <div class=numberGuessArea>Number to Guess:
-            <span id="number-to-guess"></span>
+        <div class="numbersContainer">
+            <div class="numberGuessArea">Number to Guess:
+                <div id="number-to-guess"></div>
+            </div>
+            <div class="current-score">
+                Your total score is:
+                <div class="userScore"> 0 </div>
+            </div>
+            <div class="scoreBoard">
+                <div class="wins"> Wins: 0 </div>
+                <div class="loses"> Losses: 0 </div>
+            </div>
+
         </div>
-        <br>
-        <div class=scoreBoard>
-            <div class="wins"> Wins: 0 </div>
-            <div class="loses"> Losses: 0 </div>
-        </div>
-        <br>
         <div class=crystalImages>
             <img src="assets/images/crystal1.jpg" class="gemImage" id="redGem" alt="red gem">
             <img src="assets/images/crystal2.jpg" class="gemImage" id="purpleGem" alt="purple gem">
             <img src="assets/images/crystal3.jpg" class="gemImage" id="greenGem" alt="green gem">
             <img src="assets/images/crystal4.jpg" class="gemImage" id="blueGem" alt="blue gem">
         </div>
-        <br>
-        <div class="current-score">
-            Your total score is:
-            <div class="userScore"> 0 </div>
-         </div>
 
 
-    </gameContainer>
+
+
+    </div>
 
 
 

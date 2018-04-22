@@ -1,34 +1,76 @@
-.gemImage {
-    width: 200px;
-    height: 200px;
+body {
+    background-image: url("../images/stars.png");
+    font-size: 24px;
+    font-family: "ASAP", sans-serif;
+    color:whitesmoke;
+    text-align: center;
+}
+.container {
+    background-image: url("../images/stars.png");
+    width: 960px;
+    margin: auto; 
 
-};
+}
+
+.gemImage {
+    width: 215px;
+    height: 215px;
+    margin: 10px;
+}
+.crystalImages {
+    clear: both;
+    margin-top: 20px;
+
+}
 
 header {
-    border: 2px solid red;
+    margin: 25px 0px;
+    padding:20px;
     border-radius: 5px;
-};
+    background-color: #dfba69;
+    font-size: 30px;
+}
 .instructions {
-    border: 2px solid red;
+    
     border-radius: 5px;
-};
+    line-height: 1.6;
+    background-color: #5a2e2e;
+}
 
 .numberGuessArea {
-    border: 2px solid red;
+    float: left;
     border-radius: 5px;
-};
+    background-color: #104452;
+    width: 270px;
+    padding:25px;
+    
+}
 
 .scoreBoard {
-    border: 2px solid red;
+    float: left;
     border-radius: 5px;
-};
+    background-color: #1c3166;
+    width: 270px;
+    padding:25px;
 
-.current-score{
-    border: 2px solid red;
+    
+}
+
+.current-score {
+    float: left;
     border-radius: 5px;
-};
+    background: #332222;
+    width: 270px;
+    padding: 25px;
+    
+}
 
 .userScore{
-    border: 2px solid red;
+    
     border-radius: 5px;
-};
+}
+
+.numbersContainer {
+    margin-bottom: 20px;
+    height: 100px;    
+}
