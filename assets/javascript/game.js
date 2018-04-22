@@ -24,6 +24,7 @@ $(document).ready(function () {
 
     $("#redGem").on("click", function () {
         userTotal = userTotal + num1;
+        
         $(".userScore").text(userTotal);
         // when win and when loss code 
         if (userTotal === random) {
@@ -37,6 +38,7 @@ $(document).ready(function () {
 
     $("#purpleGem").on("click", function () {
         userTotal = userTotal + num2;
+        
         $(".userScore").text(userTotal);
         // when win and when loss code  
         if (userTotal === random) {
@@ -49,6 +51,7 @@ $(document).ready(function () {
     });
     $("#greenGem").on("click", function () {
         userTotal = userTotal + num3;
+        
         $(".userScore").text(userTotal);
         // when win and when loss code
         if (userTotal === random) {
@@ -61,6 +64,7 @@ $(document).ready(function () {
     });
     $("#blueGem").on("click", function () {
         userTotal = userTotal + num4;
+        
         $(".userScore").text(userTotal);
         //when win and when loss code
         if (userTotal === random) {
@@ -91,15 +95,15 @@ $(document).ready(function () {
     };
     // function to reset the game 
     function reset() {
-        random = Math.floor(Math.random() * 101) + 19;
+        var random = Math.floor(Math.random() * 101) + 19;
         $("#number-to-guess").text(random)
         userTotal = 0
-        var num1 = Math.floor(Math.random() * 12) + 1;
-        var num2 = Math.floor(Math.random() * 12) + 1;
-        var num3 = Math.floor(Math.random() * 12) + 1;
-        var num4 = Math.floor(Math.random() * 12) + 1;
+        num1 = Math.floor(Math.random() * 12) + 1;
+        num2 = Math.floor(Math.random() * 12) + 1;
+        num3 = Math.floor(Math.random() * 12) + 1;
+        num4 = Math.floor(Math.random() * 12) + 1;
         $(".userScore").text(userTotal)
-    }
+    };
 
 
 
