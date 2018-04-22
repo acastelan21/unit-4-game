@@ -95,7 +95,7 @@ $(document).ready(function () {
     };
     // function to reset the game 
     function reset() {
-        var random = Math.floor(Math.random() * 101) + 19;
+        random = Math.floor(Math.random() * 101) + 19;
         $("#number-to-guess").text(random)
         userTotal = 0
         num1 = Math.floor(Math.random() * 12) + 1;
