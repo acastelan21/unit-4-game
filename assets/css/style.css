@@ -2,28 +2,33 @@
     width: 200px;
     height: 200px;
 
-}
+};
 
 header {
     border: 2px solid red;
     border-radius: 5px;
-}
+};
 .instructions {
     border: 2px solid red;
     border-radius: 5px;
-}
+};
 
 .numberGuessArea {
     border: 2px solid red;
     border-radius: 5px;
-}
+};
 
 .scoreBoard {
     border: 2px solid red;
     border-radius: 5px;
-}
+};
 
 .current-score{
     border: 2px solid red;
     border-radius: 5px;
-}
+};
+
+.userScore{
+    border: 2px solid red;
+    border-radius: 5px;
+};
