@@ -105,27 +105,4 @@ $(document).ready(function () {
         $(".userScore").text(userTotal)
     };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 });
