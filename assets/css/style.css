@@ -1,3 +1,4 @@
+
 body {
     background-image: url("../images/stars.png");
     font-size: 24px;
@@ -74,3 +75,30 @@ header {
     margin-bottom: 20px;
     height: 100px;    
 }
+
+@media only screen and (max-width: 952px) {
+    .container {
+        width: 95%;
+
+    }
+    body {
+        font-size: 14px; 
+
+    }
+    .gemImage {
+        width: 85px;
+        height: 85px;
+        margin: 1px;
+    }
+    .numberGuessArea {
+        width: 93%;
+    }
+    .current-score {
+        width: 93%;
+    }
+    .scoreBoard {
+        width: 93%;
+
+    }
+}   
+
