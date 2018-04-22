@@ -86,9 +86,9 @@ header {
 
     }
     .gemImage {
-        width: 85px;
-        height: 85px;
-        margin: 1px;
+        width: 45%;
+        
+        margin: 2px;
     }
     .numberGuessArea {
         width: 93%;
@@ -99,6 +99,10 @@ header {
     .scoreBoard {
         width: 93%;
 
+    }
+    .instructions {
+        width: 100%;
+        
     }
 }   
 
