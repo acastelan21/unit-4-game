@@ -12,7 +12,6 @@ $(document).ready(function () {
     // numbers for cystals/gems between 1 and 12 
     var num1 = Math.floor(Math.random() * 12) + 1;
 
-
     var num2 = Math.floor(Math.random() * 12) + 1;
 
     var num3 = Math.floor(Math.random() * 12) + 1;
